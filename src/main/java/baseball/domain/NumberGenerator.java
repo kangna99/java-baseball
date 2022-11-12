@@ -18,7 +18,6 @@ public class NumberGenerator {
                 numbers.add(number);
             }
         }
-
-        return null;
+        return numbers;
     }
 }
