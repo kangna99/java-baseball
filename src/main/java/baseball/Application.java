@@ -16,6 +16,7 @@ public class Application {
 //        generator.createRandomgNumbers();
 
         Judgement judgement = new Judgement();
-        int count = judgement.correctCount(Arrays.asList(1,2,3), Arrays.asList(1,2,6))
+//        int count = judgement.correctCount(Arrays.asList(1,2,3), Arrays.asList(1,2,6))
+        boolean place = judgement.hasPlace(Arrays.asList(7,8,9), 0, 7);
     }
 }
