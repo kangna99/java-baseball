@@ -15,6 +15,6 @@ public class Judgement {
     }
 
     public boolean hasPlace(List<Integer> computer, int placeIndex, int number) {
-        return computer.get(placeIndex) == number;g
+        return computer.get(placeIndex) == number;
     }
 }
