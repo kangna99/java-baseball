@@ -1,6 +1,8 @@
 package baseball;
 
+import baseball.domain.Judgement;
 import baseball.domain.NumberGenerator;
+import java.util.Arrays;
 
 /**
  * 객체 지향 프로그래밍
@@ -10,7 +12,10 @@ import baseball.domain.NumberGenerator;
  */
 public class Application {
     public static void main(String[] args) {
-        NumberGenerator generator = new NumberGenerator();
-        generator.createRandomNumbers();
+//        NumberGenerator generator = new NumberGenerator();
+//        generator.createRandomgNumbers();
+
+        Judgement judgement = new Judgement();
+        int count = judgement.correctCount(Arrays.asList(1,2,3), Arrays.asList(1,2,6))
     }
 }
